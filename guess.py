@@ -6,7 +6,7 @@ print('Okay,' + name + 'I\'m thinking of a number between 1 and 40')
 
 for guessTake in range(1,20):
     print('Guess!')
-    guess int(input())
+    guess = int(input())
     if guess < GuessNum:
         print('Too low')
     elif guess > GuessNum:
